@@ -36,7 +36,7 @@ def Check_Motion(M_Sensor):
     if M_Sensor > 0.3:
             Send_Message("Motion Detected")
     elif M_Sensor > 0.7:
-            Send_Message("CODE RAPE!!!")
+            Send_Message("Hello Darkness")
     
 
 def User_Control():
