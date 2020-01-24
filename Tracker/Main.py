@@ -23,13 +23,11 @@ def Send_Message(msg):
     pass
 
 def Update_LiveGPS(GPS,GSM,RF,ID):
-    #Update Current Position, Date & Time
+    #Update Current Position, Date & Time(testing)
     g = geocoder.ip('me')
     
-    #Data order : Lat , Long, Date &Time 
-    
-    data = { ID:[{'Lat': g.latglong[0], 'lONG': g.latglong[1], 'Date': datetime.datetime.now()}]}
-
+    #Data order : Lat , Long, Date &Time    
+    data = { ID:[{'Lat': g.latglong[0], 'Long': g.latglong[1], 'Date': datetime.datetime.now()}]}
     #Send the data      
 
 def Check_Motion(M_Sensor):
