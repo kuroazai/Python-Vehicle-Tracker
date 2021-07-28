@@ -1,8 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-@author: Kuro Azai
-"""
-
 #Tracker Device Service
 
 ## Usage 
